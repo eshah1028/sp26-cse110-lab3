@@ -1,3 +1,3 @@
-# Lab 2 - Starter
+# Lab 3 - Starter
 
-Site Url: https://eshah1028.github.io/CSE110_Lab2/
+Site Url: https://eshah1028.github.io/sp26-cse110-lab3/
