@@ -1,0 +1,146 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+main {
+  background: white;
+
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+
+  padding: 30px 30px 30px 30px;
+
+  border-style: solid;
+  border-color: #ccc;
+  border-width: 2px;
+  border-radius: 10px;
+
+  max-width: 900px;
+}
+
+h1 {
+  display: block;
+}
+
+h2 {
+  display: inline-block; /* display variation */
+  margin: 10px 0;
+}
+
+nav {
+  position: sticky; /* position requirement */
+  top: 0;
+  background: #eee;
+  padding: 10px;
+}
+
+nav a {
+  display: inline; /* display variation */
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+section {
+  margin: 20px 10px 20px 10px;
+
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+footer {
+  position: relative;
+  margin-top: 20px;
+  text-align: center;
+}
+
+details {
+  position: absolute;
+  right: 20px;
+}
+
+img {
+  width: 100%;
+  max-width: 400px;
+  min-width: 200px;
+  height: auto;
+}
+
+video {
+  width: 100%;
+  max-width: 400px;
+}
+
+textarea {
+  width: 100%;
+  max-width: 300px;
+  height: 80px;
+}
+
+ol {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(5, auto);
+  grid-auto-flow: column;
+  gap: 10px;
+}
+
+section:nth-of-type(3) ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+section:nth-of-type(3) ul li {
+  width: 45%;
+  margin-bottom: 8px;
+}
+
+input, select, textarea {
+  display: block;
+  margin-bottom: 10px;
+
+  padding: 10px 15px 10px 15px;
+
+  border-style: solid;
+  border-color: #ccc;
+  border-width: 1px;
+  border-radius: 4px;
+}
+
+button {
+  display: inline-block;
+  margin: 10px 0 10px 0;
+  padding: 10px 15px;
+
+  background: #93530f;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+hr {
+  display: none;
+}
