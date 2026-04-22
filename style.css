@@ -7,13 +7,14 @@
 
 
 body {
-  font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
   margin: 0 auto;
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 20px;
   padding-right: 20px;
+  font-family: 'Inter', Arial, sans-serif;
+  color: #2c2c2c;
+  text-align: left;
 }
 
 main {
@@ -34,24 +35,35 @@ main {
   max-width: 900px;
 }
 
+/*Layout fixes*/
+
 h1 {
   display: block;
 }
 
 h2 {
-  display: inline-block; /* display variation */
+  display: block;
   margin: 10px 0;
 }
 
+h1, h2, h3 {
+  font-family: "Sekuya", system-ui;
+  font-weight: 400;
+  font-style: normal;
+
+  color: #1a1a1a;
+  text-align: center;
+}
+
 nav {
-  position: sticky; /* position requirement */
+  position: sticky; 
   top: 0;
   background: #eee;
   padding: 10px;
 }
 
 nav a {
-  display: inline; /* display variation */
+  display: inline;
   margin-right: 10px;
   text-decoration: none;
 }
@@ -97,6 +109,7 @@ textarea {
   height: 80px;
 }
 
+/*Grid Element*/
 ol {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -105,6 +118,7 @@ ol {
   gap: 10px;
 }
 
+/*Flexbox Element*/
 section:nth-of-type(3) ul {
   display: flex;
   flex-direction: row;
@@ -118,6 +132,7 @@ section:nth-of-type(3) ul li {
   margin-bottom: 8px;
 }
 
+/*Form layout*/
 input, select, textarea {
   display: block;
   margin-bottom: 10px;
@@ -139,6 +154,53 @@ button {
   color: white;
   border: none;
   border-radius: 5px;
+}
+
+/*Styling for Readability*/
+
+#main-title {
+  text-decoration: underline;
+}
+
+.highlight {
+  color: #93530f;
+}
+
+input[type="text"] {
+  border-color: #93530f;
+}
+
+ul li:hover {
+  color: #93530f;
+  text-decoration: underline;
+}
+
+button:hover {
+  background-color: #6e3e0b;
+}
+
+p {
+  margin-bottom: 10px;
+  line-height: 1.7;
+}
+
+li {
+  line-height: 1.5;
+}
+
+footer p {
+  text-align: center;
+  color: #777;
+}
+
+label {
+  font-weight: 600;
+}
+
+summary {
+  cursor: pointer;
+  font-weight: bold;
+  color: #93530f;
 }
 
 hr {
